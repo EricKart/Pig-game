@@ -158,10 +158,17 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #2fe47e;
+}
+.player--looser {
+  background-color: #444;
 }
 
 .player--winner .name {
+  font-weight: 700;
+  color: #c7365f;
+}
+.player--looser .name {
   font-weight: 700;
   color: #c7365f;
 }
